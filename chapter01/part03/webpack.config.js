@@ -69,7 +69,6 @@ module.exports = {
                             ]
                         }
                     },
-                    // 'babel-loader',
                     'ts-loader'
                 ],
                 // 要排除的文件
@@ -83,7 +82,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({
             // title: "这是一个自定义的title"、
-            template: "./src/index.html" 
+            template: "./src/template.html" 
         }),
     ],
 

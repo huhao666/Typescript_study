@@ -1,3 +1,5 @@
+import { hi } from "./m.js";
+console.log(hi);
 let a = 10;
 console.log(a);
 function fn(a, b) {
@@ -10,4 +12,3 @@ let box1 = document.getElementById('box1');
 box1 === null || box1 === void 0 ? void 0 : box1.addEventListener('click', function () {
     alert('hello');
 });
-export {};

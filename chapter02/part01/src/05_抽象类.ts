@@ -44,6 +44,6 @@
     dog.sayHello();
 
 
-    const an = new Animal();//无法创建抽象类的实例
+   // const an = new Animal();//无法创建抽象类的实例
     dog.sayHello();
 })()

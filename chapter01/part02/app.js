@@ -1,7 +1,9 @@
 //编译选项
-console.log("hello");
-var a9 = 10;
-var b9 = 33;
-var c9 = 44;
-var xixi = "ixixi";
-var lala = "lili";
+var a = 10;
+// console.log("hello");
+console.log(a);
+// let a9 = 10;
+// let b9 = 33;
+// let c9 = 44;
+var myName;
+myName = "hh";

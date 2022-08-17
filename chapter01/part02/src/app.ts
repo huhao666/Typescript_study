@@ -1,19 +1,17 @@
 // console.log("1234");
 import { hi } from "./m.js";
+console.log(hi)
 let a = 10;
-// console.log(hi)
 console.log(a);
 
 // a = "hello";
 
 function fn(a: number, b: number) {
-    return a + b;
-    
+    return a + b; 
 }
 
 function fn2(this: Window) {
     alert(this);
-    
 }
 
 let box1 = document.getElementById('box1');

@@ -6,7 +6,6 @@ console.log(a);
 // let b9 = 33;
 // let c9 = 44;
 
-// let xixi = "ixixi";
-
-// let lala = "lili";
+let myName:string;
+myName = "hh"
 

@@ -10,7 +10,7 @@ function fn(a) {
 }
 // 可以直接调用具有泛型的函数
 let result = fn(10); // 不指定泛型,TS可以自动对类型进行推断
-let result2 = fn('hello'); //指定泛型
+let result2 = fn('hello'); //手动指定泛型
 // 泛型可以同时指定多个
 function fn2(a, b) {
     console.log(b);

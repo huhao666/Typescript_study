@@ -10,9 +10,9 @@ class Dog {
         this.name = name,
             this.age = age;
     }
-    bark() {
-        alert('汪汪汪！！');
+    bark(name) {
         console.log(this.name);
+        console.log(name + '汪汪汪！！');
     }
 }
 const dog = new Dog('小黑', 4);
@@ -23,4 +23,5 @@ console.log(dog);
 console.log(dog2);
 // console.log(dog3);
 // console.log(dog4);
-dog.bark();
+dog.bark("111");
+dog.bark("222");

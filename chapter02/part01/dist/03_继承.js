@@ -41,18 +41,6 @@
     // 定义一个猫的类
     //使Cat类继承Animal类
     class Cat extends Animal {
-        // name: string;
-        // age: number;
-        // constructor(name: string, age: number){
-        //     this.name = name;
-        //     this.age = age;
-        // }
-        // sayHello(){
-        //     console.log('喵喵喵!!');
-        // }
-        sayHello() {
-            console.log('喵喵喵!!');
-        }
     }
     const dog = new Dog('旺财', 5);
     const cat = new Cat('咪咪', 3);

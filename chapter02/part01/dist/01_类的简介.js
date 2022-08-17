@@ -9,12 +9,12 @@
 class Person {
     constructor() {
         /*
-            直接定义的属性是实例属性，需要通过对象的实例去访问；
+            直接定义的属性是实例属性，需要通过创建对象的实例去访问；
                 const per = new Person();
                 per.name
             使用static的开头的属性是静态属性（类型），可以直接通过类去访问
                 Person.age
-            readonly 开头的属性表示一个只读的属性无法修改
+            readonly 开头的属性表示一个只读的属性无法修改,readonly要放在static后
         */
         //定义实例属性
         // name: string = '孙悟空';
@@ -26,6 +26,7 @@ class Person {
     }
     //定义方法
     /*
+        直接写的话就表示实例方法，就需要实例去掉
         如果方法以static开头则方法就是类方法，可以直接通过类去调用
     */
     sayHello() {

@@ -13,9 +13,9 @@ class  Dog {
         this.age = age
     }
 
-    bark(){
-        alert('汪汪汪！！');
+    bark(name:string){
         console.log(this.name);
+        console.log(name + '汪汪汪！！');
     }
 }
 
@@ -31,6 +31,6 @@ console.log(dog2);
 // console.log(dog3);
 // console.log(dog4);
 
-dog.bark();
-
+dog.bark("111");
+dog.bark("222");
 

@@ -6,12 +6,10 @@ function sum(a: number, b: number):number {
 }
 
 const obj = {name: "孙悟空", age: 33};
-
-
 console.log(obj);
-
 obj.age = 18;
 console.log(obj);
+
 console.log(sum(123, 456));
 console.log('哈哈');
 
@@ -23,4 +21,4 @@ fn(123,456);
 fn(77,22);
 
 // console.log(Promise);
-// ie不支持箭头函数
+// ie11里没有Promise，ie11不支持箭头函数
