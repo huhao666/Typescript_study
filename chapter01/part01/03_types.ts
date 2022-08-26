@@ -1,17 +1,14 @@
 //也可以直接使用字面量进行类型声明
 
 let a1:10;
-
 a1 = 10;//但是后期不可修改有点儿类似常量了
 
 //可以使用 | 来连接多个类型（联合类型）
 let b1: "male" | "female";
-
 b1= "male";
 b1= "female";
 
 let c1 : boolean | string;
-
 c1 = true;
 c1 = 'hello';
 
@@ -25,17 +22,15 @@ d = 10;
 d = 'hello';
 d = 'true';
 
+
 let e: unknown;
 e = 10;
 e = true;
 e = "hello";
 
 let s:string;
-
 //d的类型时any，它是可以赋值给任意变量
 //s = d;
-
-e = 'hello';
 
 //unknown 实际上就是一个类型安全的any
 //unknown 类型的变量，不是直接赋值给其他变量
