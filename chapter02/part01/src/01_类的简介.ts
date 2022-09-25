@@ -45,4 +45,4 @@ console.log(per.name)
 // console.log(Person.age); //static时可以使用
 // Person.sayHello();
 
-per.sayHello();
+per.sayHello(); 
