@@ -10,8 +10,7 @@ class Person {
     constructor() {
         /*
             直接定义的属性是实例属性，需要通过创建对象的实例去访问；
-                const per = new Person();
-                per.name
+                const per = new Person();  per.name
             使用static的开头的属性是静态属性（类型），可以直接通过类去访问
                 Person.age
             readonly 开头的属性表示一个只读的属性无法修改,readonly要放在static后
