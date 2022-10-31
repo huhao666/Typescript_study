@@ -1,5 +1,4 @@
 //object 表示一个js对象
-
 let a:object;
 a = {};
 a = function(){
@@ -12,7 +11,7 @@ a = function(){
 let b: {name: string, age?:number};
 
 //没有得话就会报错
-// b = {};
+//b = {};
 
 b = {name: "孙悟空", age: 18};
 
@@ -48,7 +47,7 @@ e1 = ['a','b','c'];
 
 //number[] 表示数值数组
 let f: number[];
-
+f = [1,2,3];
 let g: Array<number>; //类型写在<>里
 g = [1, 2, 3];
 

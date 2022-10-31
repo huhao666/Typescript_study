@@ -14,7 +14,7 @@ b = 'hello';
 // 如果变量的声明和赋值时同时进行的，TS可以自动对变量进行类型检测
 let c= false;
 c = true;
-c = 123;
+//c = 123;
 
 //这个特性主要用到函数中
 function sum(a,b){
@@ -27,12 +27,12 @@ function sum1(a: number, b: number){
     return a+b;
 }
 
-// sum1(133, "456")//类型
-// sum(1233,1525,166)//数量
+// sum1(133, "456")//类型报错
+// sum1(1233,1525,166)//参数数量报错
 
 
-function sum(a: number, b:number): number{
+function sum2(a: number, b:number): number{
     return a + b;
 }
 
-let result = sum(123, 456);
+let result = sum2(123, 456);

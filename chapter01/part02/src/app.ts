@@ -22,7 +22,7 @@ let box1 = document.getElementById('box1');
 //     });
 // }
 
-
+//？判断是否存在
 box1?.addEventListener('click', function () {
     alert('hello');
 });
