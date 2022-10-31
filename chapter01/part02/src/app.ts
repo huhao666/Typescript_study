@@ -4,8 +4,6 @@ console.log(hi)
 let a = 10;
 console.log(a);
 
-// a = "hello";
-
 function fn(a: number, b: number) {
     return a + b; 
 }
