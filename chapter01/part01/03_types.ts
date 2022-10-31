@@ -48,6 +48,8 @@ if (typeof e === "string") {
 */
 s = e as string;
 s = <string>e;
+let s1:number;
+s1 = <number>e;
 
 function fn(num){     //此时num类型为any
     if (num > 0) {
