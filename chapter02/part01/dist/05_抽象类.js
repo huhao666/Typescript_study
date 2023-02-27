@@ -24,5 +24,5 @@
     const dog = new Dog("旺财");
     console.log(dog);
     dog.sayHello();
-    // const an = new Animal();//无法创建抽象类的实例，会报错
+    //const an = new Animal();//无法创建抽象类的实例，会报错
 })();

@@ -10,14 +10,14 @@
     }
     class Dog extends Animal {
         constructor(name, age) {
+            //相同的函数会发生重写，子类会覆盖父类，那么父类中的构造函数就不会执行，不执行那name属性的赋值就没了
             //如果在子类中写了构造函数，在子类构造函数中必须对父类的构造函数进行调用
             super(name); //调用父类的构造函数
             this.age = age;
         }
         sayHello() {
             // 在类的方法中 super就表示当前类的父类
-            // super.sayHello();
-            console.log('汪汪汪~~');
+            super.sayHello();
         }
     }
     const dog = new Dog("旺财", 3);

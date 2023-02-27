@@ -1,5 +1,4 @@
 (function () {
-    
     /* 
         以abstract 开头的类是抽象类
             抽象类和其他类区别不大，只是不能用来创建对象
@@ -9,7 +8,6 @@
     abstract class Animal{
         name: string;
         constructor(name: string){
-
             this.name = name;
         }
          /* 
@@ -39,6 +37,6 @@
     console.log(dog)
     dog.sayHello();
 
-   // const an = new Animal();//无法创建抽象类的实例，会报错
+    //const an = new Animal();//无法创建抽象类的实例，会报错
 
 })()

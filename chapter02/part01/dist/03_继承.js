@@ -20,6 +20,7 @@
     //定义一个表示狗的类
     //使Dog类继承Animal类
     class Dog extends Animal {
+        //提取共有代码到父类
         // name: string;
         // age: number;
         // constructor(name: string, age: number){
@@ -36,18 +37,9 @@
             console.log('汪汪汪!!');
         }
     }
-    // 定义一个猫的类
+    //定义一个猫的类
     //使Cat类继承Animal类
     class Cat extends Animal {
-        // name: string;
-        // age: number;
-        // constructor(name: string, age: number){
-        //     this.name = name;
-        //     this.age = age;
-        // }
-        // sayHello(){
-        //     console.log('喵喵喵!!');
-        // }
         sayHello() {
             console.log('喵喵喵!!');
         }
@@ -63,5 +55,5 @@
 /* OCP原则
     OPEN CLOSE开闭原则
     对扩展开放，对修改关闭
-    不要轻易改别人代码，改别人写好的类
+    不要轻易改别人代码，改别人写好的类    （用一个子类去继承，添加自己需要的代码）
 */ 

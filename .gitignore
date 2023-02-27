@@ -8,11 +8,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Nuxt generate
+# TS generate
 dist
-
-#yarn
-yarn.lock
 
 #package
 package-lock.json
