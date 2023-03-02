@@ -4,6 +4,8 @@
     type myType = {
         name: string,
         age: number
+        //[propName: string]: any,
+        //开发的时候，不确定后端返回的数据是否都是我们定义的类型，所以在定义变量时，除了我们需要的键值，需要采用[propName: string]: any作为不确定键值的判断
     };
 
     /* 
