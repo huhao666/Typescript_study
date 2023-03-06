@@ -6,7 +6,7 @@
             this._name = name;
             this._age = age;
         }
-        /*
+        /* 类内部可以调用私有属性，通过方法间接获取或修改
             getter 方法来读取属性
             setter 方法来设置属性
                 - 他们被称为属性的存取器
@@ -56,8 +56,8 @@
     // per.setName('猪八戒');
     // per.setAge(-33);
     // console.log(per);
-    per.name = '猪八戒';
-    per.age = -13;
+    per.name = '猪八戒'; //不是找的name属性，而是调用get name方法
+    per.age = -13; //打印出来还是18，没有修改
     console.log(per);
     class A {
         constructor(num) {
@@ -70,7 +70,7 @@
         }
     }
     const b = new B(125);
-    // b.num = 33
+    //b.num = 33   //protected,实例不可修改
     // class C{
     //     name: string;
     //     age: number;
@@ -82,12 +82,12 @@
     // }
     class C {
         // 语法糖
-        // 可以直接将属性定义在构造函数中
+        // 可以直接将属性定义在构造函数中,this.name = name之类的就可以不写
         constructor(name, age) {
             this.name = name;
             this.age = age;
         }
     }
-    const c = new C('李明康', 18);
+    const c = new C('hh', 18);
     console.log(c);
 })();

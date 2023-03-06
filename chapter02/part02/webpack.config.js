@@ -106,7 +106,7 @@ module.exports = {
 
         ]
     },
-    // mode: "development", //设置mode
+    mode: "development", //设置mode
     //配置Webpack 插件
     plugins: [
         new CleanWebpackPlugin(),

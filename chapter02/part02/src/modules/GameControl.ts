@@ -109,7 +109,7 @@ class GameControl {
         try {
             this.snake.X = X;
             this.snake.Y = Y;
-        } catch (e) {
+        } catch (e:any) {
             // 进入到catch, 说明出现了异常，游戏结束，弹出一个提示信息
             alert(e.message+ 'GAME OVER!');
             // 将isLive设置为false
@@ -118,7 +118,7 @@ class GameControl {
     
 
         // 开启一个定时调用
-        clearTimeout();
+        //clearTimeout();
         this.isLive && setTimeout(this.run.bind(this), 300 - (this.scorePanel.level - 1) * 30);
     }
 
