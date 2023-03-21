@@ -12,15 +12,12 @@ function fn<T>(a:T):T {
 
 // 可以直接调用具有泛型的函数
 let result = fn(10);// 不指定泛型,TS可以自动对类型进行推断
-
 let result2 = fn<string>('hello');//手动指定泛型
-
 
 // 泛型可以同时指定多个
 function fn2<T, K>(a:T, b:K):T {
     console.log(b);
     return a;
-    
 }
 
 fn2<number, string>(123, 'hello');
